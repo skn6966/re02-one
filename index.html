@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- placeholder   提示信息 -->
+    文本框: <input type="text" placeholder="用户名">
+    <br><br>
+    密码框: <input type="password">
+    <br><br>
+    单选框: <input type="radio">
+    <br><br>
+    <!-- name   分一组
+     checked   默认选中 -->
+    性别: <input type="radio" name="gender" checked id="man"> <label for="man">男</label>
+          <input type="radio" name="gender" id="woman"> <label for="woman">女</label>
+    <br><br>
+    多选框: <input type="checkbox">
+    <br><br>
+    <!-- multiple  上传多个文件 -->
+    上传文件: <input type="file" multiple>
+    <!-- 下拉菜单
+     select 其那套option 
+      -->
+    <br><br>
+    城市:
+    <select >
+        <option>重庆</option>
+        <option>河南</option>
+        <option>北京</option>
+        <option>广西</option>
+        <option>四川</option>
+    </select>
+    <!-- 文本域
+     textarea -->
+     <br><br>
+     <textarea>评论</textarea>
+     <!-- 按钮 
+      需要把表单区域放入  form标签中-->
+    <br><br>
+    <form action="">
+        用户名: <input type="text">
+        <br><br>
+        密码: <input type="password">
+        <br><br>
+        <button type="submit">提交</button>
+        <button type="reset">重置</button>
+    </form>
+</body>
+</html>
